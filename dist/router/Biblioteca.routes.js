@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const Biblioteca_controller_1 = require("../controllers/Biblioteca.controller");
+const router = (0, express_1.Router)();
+router.get('/listarLivros', Biblioteca_controller_1.BibliotecaController.listarTodosLivros);
+router.post('/addLivro', Biblioteca_controller_1.BibliotecaController.addLivro);
+router.put('/atualizarLivro/:codigo', Biblioteca_controller_1.BibliotecaController.atualizarLivro);
+router.delete('/excluirLivro/:codigo', Biblioteca_controller_1.BibliotecaController.excluirLivro);
+exports.default = router;
