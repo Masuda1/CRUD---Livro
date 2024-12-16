@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CRUD: Gerenciamento de Livros em uma Biblioteca
 
 ## Objetivo
@@ -123,3 +124,6 @@ O sistema realiza verificações para:
 - **Livros Inexistentes:** Informa quando o livro não está presente no catálogo.
 - **Livros Já Emprestados:** Notifica que o livro já está indisponível quando emprestado.
 
+=======
+# CRUD---Livro
+>>>>>>> fa2cce4e235f91d3f0bc54cdf1e17525bace77bc
